@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+
+.row{
+    display: flex;
+}
+
+.col-1{
+    width: 8.33333333%;
+}
+
+.col-2{
+    width: 16.666666%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.333333333333333%;
+}
+
+.col-5{
+    width: 41.6666666%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: end; /* center start space-between space-arrond space-evenly */
+
+    align-items: baseline; /* center end */
+    height: 300px;
+
+    flex-direction: column;
+}
+
+
+.center-element-screen{
+    display: flex;
+    justify-content: center;
+}
